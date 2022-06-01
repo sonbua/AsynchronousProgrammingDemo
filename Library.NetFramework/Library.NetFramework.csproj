@@ -39,6 +39,7 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="AsyncContext.cs" />
         <Compile Include="Env.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
