@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APD.ConsoleApp.NetCore", "APD.ConsoleApp.NetCore\APD.ConsoleApp.NetCore.csproj", "{C16CBC53-D5E0-48AF-B333-66665B832440}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APD.WebApp.NetCore", "APD.WebApp.NetCore\APD.WebApp.NetCore.csproj", "{0FF187B1-2908-4EC2-A859-520287F262EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{75B88B38-466F-48A0-897A-74BFD855A598}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Library.NetCore", "Library.NetCore\Library.NetCore.csproj", "{58CAFB93-09E7-4F34-955F-813FDC86FF48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C16CBC53-D5E0-48AF-B333-66665B832440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C16CBC53-D5E0-48AF-B333-66665B832440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C16CBC53-D5E0-48AF-B333-66665B832440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C16CBC53-D5E0-48AF-B333-66665B832440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FF187B1-2908-4EC2-A859-520287F262EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FF187B1-2908-4EC2-A859-520287F262EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FF187B1-2908-4EC2-A859-520287F262EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FF187B1-2908-4EC2-A859-520287F262EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58CAFB93-09E7-4F34-955F-813FDC86FF48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58CAFB93-09E7-4F34-955F-813FDC86FF48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58CAFB93-09E7-4F34-955F-813FDC86FF48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58CAFB93-09E7-4F34-955F-813FDC86FF48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{58CAFB93-09E7-4F34-955F-813FDC86FF48} = {75B88B38-466F-48A0-897A-74BFD855A598}
+	EndGlobalSection
+EndGlobal
